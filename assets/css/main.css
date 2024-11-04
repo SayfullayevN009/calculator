@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+input{
+    width: 100%;
+    height: 35px;
+    text-align: right;
+    padding: 5px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    outline: none;
+    color: blue;
+}
+button{
+    background-color: transparent;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    color: red;
+    font-size: 18px;
+    cursor: pointer;
+}
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:30px 30px 30px 30px 30px;
+    grid-gap: 5px;
+}
